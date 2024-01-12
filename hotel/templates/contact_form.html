@@ -4,10 +4,12 @@
     <title>Contact Us</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/cssNew.css' %}">
 </head>
 <body>
+    <h1>Contact Us</h1>
     <div class="container">
-        <h1>Contact Us</h1>
+        
         <form method="POST">
             {% csrf_token %}
             {{ form.as_p }}

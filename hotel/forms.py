@@ -6,7 +6,7 @@ class ReservationForm(forms.ModelForm):
         model = Reservation
         fields = '__all__'
 
-class ContactForm(forms.ModelForm):
+class ContactForm(forms.ModelForm):  
     class Meta:
         model = ContactMessage
         fields = '__all__'
